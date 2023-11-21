@@ -1,7 +1,7 @@
 # pip install mysql-connector-python
 import mysql.connector
 from enviaEmail import EnviaEmail
-# Variaveis de ambiente
+
 
 # Configurações do primeiro banco de dados (de onde os dados serão lidos)
 origem_db_config = {
