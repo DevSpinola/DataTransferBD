@@ -39,8 +39,7 @@ try:
         query += ")"
         destino_cursor.execute(query, row)
     # Commit das alterações no banco de dados de destino
-    destino_conn.commit()
-    EnviaEmail("Dados transferidos com sucesso!")
+    destino_conn.commit()    
     print("Dados transferidos com sucesso!")
 
 except mysql.connector.Error as err:
